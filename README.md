@@ -1,0 +1,1 @@
+This is a compilation of solutions to problems on projecteuler.net
