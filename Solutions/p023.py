@@ -148,11 +148,12 @@ abundantNumbers = [i for i in range(12, 28124) if sum(factorList(i)) > i]
 sums = set()
 
 for i in range(len(abundantNumbers)-1):
-	for j in range(i+1, len(abundantNumbers)):
+	for j in range(i, len(abundantNumbers)):
 		sums.add(abundantNumbers[i]+abundantNumbers[j])
 
-for i in range(24, 28124):
+for i in range(1, 28124):
 	if not i in sums:
 		total += i
 
+#random comment
 print total
