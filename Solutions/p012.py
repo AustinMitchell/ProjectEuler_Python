@@ -110,7 +110,6 @@ while(True):
 				primeFactors[p] += 1
 	totalFactors = 1
 	for p in primeFactors:
-		#print "i: " + str(i) + ", Tri num: " + str((i*(i+1))//2) + ", Factor: " + p + ", Num factor: "
 		totalFactors *= primeFactors[p]+1
 	if totalFactors > 500:
 		print (i*(i+1))//2
